@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+	<ApplicationIcon>res\ic_tunnel.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="res\ic_tunnel.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MaterialDesignThemes" Version="5.0.0" />
+    <PackageReference Include="Microsoft.PowerShell.SDK" Version="7.4.2" />
+
+	<None Include="D:\mich\projects\android\gnirehtet_reverse_tunnel\gnirehtet.apk" CopyToOutputDirectory="Always" />
+	  <None Include="D:\mich\projects\android\gnirehtet_reverse_tunnel\gnirehtet.exe" CopyToOutputDirectory="Always" />
+  </ItemGroup>
+
+</Project>
